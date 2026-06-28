@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git branch: 'main'
+                git branch: 'main',
               https://github.com/mohan62447/petclinic-devops.git  
             }
         }
